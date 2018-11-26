@@ -1,0 +1,14 @@
+diff -purN bwidget-1.9.12.org/Makefile bwidget-1.9.12/Makefile
+--- bwidget-1.9.12.org/Makefile	1970-01-01 00:00:00.000000000 +0000
++++ bwidget-1.9.12/Makefile	2018-11-26 07:58:01.625448055 +0000
+@@ -0,0 +1,9 @@
++all: nope
++
++nope:
++
++
++
++install:
++	mkdir -p $(DESTDIR)/usr/lib64/bwidget
++	cp -a * $(DESTDIR)/usr/lib64/bwidget
+\ No newline at end of file
