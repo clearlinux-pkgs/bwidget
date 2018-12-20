@@ -4,9 +4,9 @@
 #
 Name     : bwidget
 Version  : 1.9.12
-Release  : 1
-URL      : https://downloads.sourceforge.net/project/tcllib/BWidget/1.9.12/bwidget-1.9.12.tar.gz
-Source0  : https://downloads.sourceforge.net/project/tcllib/BWidget/1.9.12/bwidget-1.9.12.tar.gz
+Release  : 2
+URL      : https://sourceforge.net/projects/tcllib/files/BWidget/1.9.12/bwidget-1.9.12.tar.gz
+Source0  : https://sourceforge.net/projects/tcllib/files/BWidget/1.9.12/bwidget-1.9.12.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : TCL
@@ -34,11 +34,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1543219204
+export SOURCE_DATE_EPOCH=1545266522
 make  %{?_smp_mflags}
 
+
 %install
-export SOURCE_DATE_EPOCH=1543219204
+export SOURCE_DATE_EPOCH=1545266522
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/bwidget
 cp LICENSE.txt %{buildroot}/usr/share/package-licenses/bwidget/LICENSE.txt
