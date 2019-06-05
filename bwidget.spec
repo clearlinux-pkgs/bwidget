@@ -4,7 +4,7 @@
 #
 Name     : bwidget
 Version  : 1.9.13
-Release  : 3
+Release  : 4
 URL      : https://sourceforge.net/projects/tcllib/files/BWidget/1.9.13/bwidget-1.9.13.tar.gz
 Source0  : https://sourceforge.net/projects/tcllib/files/BWidget/1.9.13/bwidget-1.9.13.tar.gz
 Summary  : No detailed summary available
